@@ -51,9 +51,9 @@ vehicle-insurance-model
 
 Install Packages:
 
-`conda create -n vehicle python=3.10 -y`
-`conda activate vehicle`
-`pip install -r requirements.txt`
+`conda create -n vehicle python=3.10 -y` \
+`conda activate vehicle` \
+`pip install -r requirements.txt` \
 
 MongoDB Integration:
 
@@ -114,17 +114,6 @@ To retrain the model manually:
 
 `http://107.22.132.74:5000/training`
 
-## 🔐 Secrets Management
-------------------------
-GitHub Repository → Settings → Secrets and Variables:
-
-AWS_ACCESS_KEY_ID
-
-AWS_SECRET_ACCESS_KEY
-
-AWS_DEFAULT_REGION
-
-ECR_REPO
 
 ## 📈 Sample Inputs for Prediction
 ------------------------
