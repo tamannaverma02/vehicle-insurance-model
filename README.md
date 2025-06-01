@@ -25,23 +25,25 @@ This project predicts whether a customer will opt for vehicle insurance based on
 
 ## 📁 Project Structure
 -------------------
-vehicle-insurance-model /
-├── .github/workflows/ # CI/CD workflow files
-├── Dockerfile # Docker image build
-├── app.py # FastAPI app for web interface
-├── src/ # Source code (core logic)
-│   ├── components/ # ML components like training, ingestion, etc.
-│   ├── entity/ # Configs and data schema definitions
-│   ├── configuration/ # AWS and MongoDB connection setups
-│   ├── utils/ # Utility functions
-│   └── aws_storage/ # S3 interaction code
+```
+vehicle-insurance-model 
+├── .github/workflows/   # CI/CD workflow files 
+├── Dockerfile # Docker image build 
+├── app.py # FastAPI app for web interface 
+├── src/ # Source code (core logic) 
+│   ├── components/ # ML components like training, ingestion, etc. 
+│   ├── entity/ # Configs and data schema definitions 
+│   ├── configuration/ # AWS and MongoDB connection setups 
+│   ├── utils/ # Utility functions 
+│   └── aws_storage/ # S3 interaction code 
 ├── templates/ # HTML templates (Jinja2)
-├── static/ # Static assets (CSS, images)
-├── notebook/ # EDA and MongoDB data loading notebooks
-├── requirements.txt # Python dependencies
-├── setup.py # Local package installation
-├── pyproject.toml # Metadata and build system info
+├── static/ # Static assets (CSS, images) 
+├── notebook/ # EDA and MongoDB data loading notebooks 
+├── requirements.txt # Python dependencies 
+├── setup.py # Local package installation 
+├── pyproject.toml # Metadata and build system info 
 └── README.md # You're here!
+```
 
 ## 🧱 Step-by-Step Workflow
 ------------------------
