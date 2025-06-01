@@ -76,7 +76,7 @@ Load dataset from notebook to MongoDB collection
 ------------------------
 Run the app locally:
 
-`uvicorn app:app --host 0.0.0.0 --port 5050`
+`uvicorn app:app --host 0.0.0.0 --port 5000` \
 Navigate to `http://localhost:5000` to access the web UI.
 
 ## 🔄 CI/CD & AWS Integration
