@@ -53,13 +53,13 @@ Install Packages:
 
 `conda create -n vehicle python=3.10 -y` \
 `conda activate vehicle` \
-`pip install -r requirements.txt` \
+`pip install -r requirements.txt` 
 
-MongoDB Integration:
+## MongoDB Integration:
 
 Setup MongoDB Atlas project & cluster
 
-Configure access (0.0.0.0/0) and retrieve connection string
+Configure access and retrieve connection string
 
 Load dataset from notebook to MongoDB collection
 
